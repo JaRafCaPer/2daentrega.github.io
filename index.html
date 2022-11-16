@@ -13,26 +13,55 @@
     <!-- inicio encabezado -->
 	<header class="encabezado">
 		<!-- logo -->
-        <div>
-            <img src="./img/kisspng-sword-shield-vector-sword-5a9bb9e2296d60.4707474415201551061697.png" alt="logo">
-        </div>		
+        <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../img/kisspng-sword-shield-vector-sword-5a9bb9e2296d60.4707474415201551061697.png" alt="Logo" width="60" height="48" class="d-inline-block align-text-top">
+                Alterego
+              </a>
+            </div>
+          </nav>
+
+        	
          <!-- fin logo -->
          <!-- inicio nav -->
-        <nav>
-            <ul >
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./Paginas/Utiles.html">¿Que debo tener?</a>
-                    <ul>
-			            <li><a href="./Paginas/Juegos.html">Juegos</a></li>
-			            <li><a href="./Paginas/Jugadores.html">Jugadores</a>
-			        </ul>
-                <li><a href="./Paginas/Nosotros.html">Nosotros</a>
-                <li><a href="./Paginas/Contacto.html">Contacto</a>
-            </ul> 
 
-        </nav>
+
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Paginas/Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./Paginas/Utiles.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ¿Que debo tener?
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./Paginas/Juegos.html">Juegos</a></li>
+                      <li><a class="dropdown-item" href="./Paginas/Jugadores.html">Jugadores</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
                 <!-- fin nav -->
-    </header>
+    </header><!-- fin de encabezado -->
     <Section class="presentacion">
         <h1>Alterego: Gremio de rol</h1>
         <p> ¿Que es un juego de rol?: Un juego de rol (traducción típica en castellano del inglés role-playing game, literalmente ‘juego de interpretación de papeles’) es un juego en el que, tal como indica su nombre, uno o más jugadores desempeñan un determinado rol, papel o personalidad. Cuando una persona hace el papel de X significa que está interpretando un papel que normalmente no hace</p>
