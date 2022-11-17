@@ -121,34 +121,8 @@ a{text-decoration: none;}
         height: 70%;
         margin-left: 170px;
     }
-    .tabla {
-        display: block;
-        padding: 10px;
-    }
-    .tabla .cabecera {
-        text-align: center; 
-        padding-top: 20px;
-        margin-top: 50px;
-    }
-    .tabla .imagen1 img {
-        padding: 20px;
-        display:inline;
-        width: 420px;
-        height: fit-content;
-    }
-    .tabla .imagen2 img {
-        padding: 20px;
-        display:block;
-        width: 400px;
-        height: fit-content;
-    }
-    .tabla .imagen3 img {
-        padding: 20px;
-        display:inline;
-        width: 370px;
-        height: fit-content;
         
-    }
+    
 
 footer {
     background-image: linear-gradient( orange , yellow);
@@ -251,40 +225,5 @@ footer {
     height: auto;
     margin-left: 170px;
 }
-.tablajugadores {
-    display: block;
-    margin-left: 20px;
-}
-    .tablajugadores h2 {
-        text-align: justify; 
-        background-color: rgba(255,255,255, 0.7);
-        text-transform: initial;
-        padding: 10px;
-        margin-top: 50px;
-        
-        }
-    .tablajugadores p{
-        text-align: justify;
-        background-color: rgba(255,255,255, 0.7);
-        text-transform: initial;
-        padding: 10px 20px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        height: 400px;
-        width: 500px;
-         }
-    .imgjugadores1 {
-        margin-top: 70px;
-        padding: 20px;
-        width: 500px;;
-        height: 500px;
-        
-        }
-    .imgjugadores2 {
-            margin-top: 70px;
-            padding: 20px;
-            width: 500px;
-            height: 500px;
-            
-        }
+
     
