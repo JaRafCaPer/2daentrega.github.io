@@ -71,6 +71,7 @@ a{text-decoration: none;}
                 display:block;
                 background-image: linear-gradient(red,orange);
                 padding: 20px;
+                border: 2px solid black;
                 transform: skewY(8deg)
                 }
     
@@ -114,13 +115,7 @@ a{text-decoration: none;}
         padding: 10px;
         margin-top: 50px;
     }
-    .descripcion img {
-        padding: 20px;
-        display:block;
-        width:70%;
-        height: 70%;
-        margin-left: 170px;
-    }
+    
         
     
 
@@ -223,7 +218,7 @@ footer {
     display:block;
     width:70%;
     height: auto;
-    margin-left: 170px;
+    margin-left: 15%;
 }
 
     
