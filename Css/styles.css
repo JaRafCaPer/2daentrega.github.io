@@ -115,6 +115,13 @@ a{text-decoration: none;}
         padding: 10px;
         margin-top: 50px;
     }
+    .descripcion img {
+        padding: 20px;
+        display:block;
+        width:70%;
+        height: auto;
+        margin-left: 15%;
+    }
     
         
     
@@ -157,7 +164,7 @@ footer {
             display:block;
             width:70%;
             height: auto;
-            margin-left: 170px;
+            margin-left: 15%;
             
     }
                 .listado ul li {
