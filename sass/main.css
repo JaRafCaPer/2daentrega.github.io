@@ -69,7 +69,7 @@ ul li:hover ul {
   background-image: linear-gradient(red, orange);
   padding: 20px;
   border: 2px solid black;
-  transform: skewY(8deg);
+  transform: skewY(6deg);
 }
 
 .presentacion {

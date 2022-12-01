@@ -54,22 +54,22 @@ header {
 				text-decoration: none;
 			}
 		}
-	}
-}
-ul {
-	li {
-		&:hover {
-			ul {
-				position: absolute;
-				display: block;
-				background-image: linear-gradient(red,orange);
-				padding: 20px;
-				border: 2px solid black;
-				transform: skewY(8deg);
+		ul {
+			li {
+				&:hover {
+					ul {
+						position: absolute;
+						display: block;
+						background-image: linear-gradient(red,orange);
+						padding: 20px;
+						border: 2px solid black;
+						transform: skewY(8deg);
+						}
+					}
+				}
 			}
 		}
 	}
-}
 .presentacion {
 	overflow: hidden;
 	h1 {
