@@ -6,9 +6,21 @@ body{
 	overflow-x: hidden;
     background-image:url(../img/Fondo\ desenfocado.webp);
 }
+$primary: black;
+$accent: rgb(44, 44, 44);
+
+$font-size-l: 25px;
+$font-size-m: 16px;
+$font-size-s: 11px;
+
+@mixin font ($color, $font-size, $font-weight: 400, $font-style: normal, $font-family: 'Open sans') {
+  color: $color;
+  font: $font-style $font-weight $font-size $font-family;
+}
 html{
 	font-size: 1rem;
 }
+
 @include media-breakpoint-up(sm) {
     html {
       font-size: 1.2rem;
@@ -26,6 +38,7 @@ html{
       font-size: 1.6rem;
     }
   }
+
 a{text-decoration: none;}
 .encabezado {
 	background-image: linear-gradient( red , yellow);
@@ -48,8 +61,6 @@ header {
 				display: inline;
 				width: 40%;
 				margin-right: 20px;
-				font-weight: bold;
-				font-style: italic;
 				padding: auto;
 				text-decoration: none;
 			}
@@ -73,12 +84,13 @@ header {
 .presentacion {
 	overflow: hidden;
 	h1 {
-		font-size: 2rem;
+		@include font ($primary, $font-size-l, $font-family: Menlo);
 		text-align: center;
 		padding-top: 20px;
 		margin-top: 50px;
 	}
 	p {
+		@include font ($accent, $font-size-m);
 		text-align: justify;
 		text-transform: initial;
 		padding: 10px;
@@ -133,6 +145,7 @@ footer {
 .listado {
 	display: inline-block;
 	h1 {
+		@include font ($primary, $font-size-l, $font-family: Menlo);
 		text-align: center;
 		padding-top: 20px;
 		margin-top: 50px;
@@ -160,12 +173,14 @@ footer {
 	display: inline-block;
 	margin-left: 20px;
 	h2 {
+		@include font ($primary, $font-size-l, $font-family: Menlo);
 		text-align: justify;
 		text-transform: initial;
 		padding: 10px;
 		margin-top: 50px;
 	}
 	p {
+		@include font ($accent, $font-size-m);
 		text-align: left;
 		text-transform: initial;
 		padding: 10px 20px;
@@ -179,6 +194,7 @@ footer {
 	display: inline-block;
 	margin-left: 20px;
 	h2 {
+		@include font ($primary, $font-size-l, $font-family: Menlo);
 		text-align: justify;
 		text-transform: initial;
 		padding: 10px;
@@ -186,6 +202,7 @@ footer {
 		margin-left: 20px;
 	}
 	p {
+		@include font ($accent, $font-size-m);
 		text-align: left;
 		text-transform: initial;
 		padding: 10px 20px;

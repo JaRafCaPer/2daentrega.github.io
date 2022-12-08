@@ -8,27 +8,26 @@ body {
   background-image: url(../img/Fondo\ desenfocado.webp);
 }
 
-html {
-  font-size: 1rem;
+html{
+	font-size: 1rem;
 }
-
 @include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
+    html {
+      font-size: 1.2rem;
+    }
   }
-}
-
+  
 @include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
+    html {
+      font-size: 1.4rem;
+    }
   }
-}
-
+  
 @include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
+    html {
+      font-size: 1.6rem;
+    }
   }
-}
 
 a {
   text-decoration: none;
@@ -57,31 +56,31 @@ header nav ul li {
   display: inline;
   width: 40%;
   margin-right: 20px;
-  font-weight: bold;
-  font-style: italic;
   padding: auto;
   text-decoration: none;
 }
-
-ul li:hover ul {
+header nav ul li:hover ul {
   position: absolute;
   display: block;
   background-image: linear-gradient(red, orange);
   padding: 20px;
   border: 2px solid black;
-  transform: skewY(6deg);
+  transform: skewY(8deg);
 }
 
 .presentacion {
   overflow: hidden;
 }
 .presentacion h1 {
-  font-size: 2rem;
+  color: black;
+  font: normal 400 25px Menlo;
   text-align: center;
   padding-top: 20px;
   margin-top: 50px;
 }
 .presentacion p {
+  color: rgb(44, 44, 44);
+  font: normal 400 16px "Open sans";
   text-align: justify;
   text-transform: initial;
   padding: 10px;
@@ -108,7 +107,7 @@ ul li:hover ul {
 }
 
 footer {
-  background-image: linear-gradient(yellow , white);
+  background-image: linear-gradient(yellow, white);
   top: 0px;
   display: flex;
   justify-content: space-around;
@@ -135,6 +134,8 @@ footer nav ul li {
   display: inline-block;
 }
 .listado h1 {
+  color: black;
+  font: normal 400 25px Menlo;
   text-align: center;
   padding-top: 20px;
   margin-top: 50px;
@@ -160,12 +161,16 @@ footer nav ul li {
   margin-left: 20px;
 }
 .tablaredes h2 {
+  color: black;
+  font: normal 400 25px Menlo;
   text-align: justify;
   text-transform: initial;
   padding: 10px;
   margin-top: 50px;
 }
 .tablaredes p {
+  color: rgb(44, 44, 44);
+  font: normal 400 16px "Open sans";
   text-align: left;
   text-transform: initial;
   padding: 10px 20px;
@@ -180,6 +185,8 @@ footer nav ul li {
   margin-left: 20px;
 }
 .tablajuegos h2 {
+  color: black;
+  font: normal 400 25px Menlo;
   text-align: justify;
   text-transform: initial;
   padding: 10px;
@@ -187,6 +194,8 @@ footer nav ul li {
   margin-left: 20px;
 }
 .tablajuegos p {
+  color: rgb(44, 44, 44);
+  font: normal 400 16px "Open sans";
   text-align: left;
   text-transform: initial;
   padding: 10px 20px;
